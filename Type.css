@@ -1,25 +1,29 @@
-/* DIV 1*/
+    /* DIV 1*/
 body{
     background-color: azure;
 }
-#MN{
+#logo{
     background-color: black;
 }
-#menu li{
-    display: inline;
-    margin: 30px;
-    padding: 20px 10px 20px 10px;
-    line-height: 60px;
-    position: relative;
-    left: 250px;
-    font-weight: 600;
+#logo{
+    text-align: center; 
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    width: 100%;
 }
-#menu li:hover{
-    background: red;
-}
-#menu li>a{
-    text-decoration: none;
+#logo a{
+    padding: 10px 20px 14px 20px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
     color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+#logo a:hover{
+    background-color: red;
+    background-size: 20px
 }
 /*Div 2*/
 #d2 img{
@@ -30,7 +34,6 @@ body{
     font-weight: bold;
     text-align: center;
 }
-
 /* Div 3 */
 #d3 ul li{
     display: inline;
@@ -51,6 +54,9 @@ body{
 }
 #d3{
     background-color: blue;
+    margin-left: -10px;
+    padding-right: 20px;
+    width: 100%;
 }
 /*Div 4*/
 #d4 h1{
@@ -69,6 +75,7 @@ body{
     display: inline-block;
     float: left;
 }
+
 /* Div 41*/
 #d4 img{
     float: left;
@@ -187,17 +194,23 @@ body{
 }
 /*Div 48*/
 #d48 ol
-{
+{   
     color: blue;
+}
+#d48::after
+{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 
 /*Div 5*/
-#d5 ul>p
-{
-    font-weight: bold;
-    font-size: 30px;
+#d5 h2{
+    margin-left: 25px;
+    
 }
+
 #d5 ul li>a
 {
     text-decoration: none;
@@ -207,4 +220,24 @@ body{
     display: inline-block;
     width: 300px;;
     margin-top: -50px;
+}
+#d5 ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#d6 
+{  background-color: black;
+   text-align: center;
+    clear:left;
+    margin-left: -10px;
+    padding-right: 20px;
+    width: 100%;
+    line-height: 50px;
+    
+}
+
+#d6 p{
+    display: inline;
+    color: white;
 }
